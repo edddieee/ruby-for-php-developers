@@ -1,4 +1,4 @@
-# A Ruby guide for PHP developers
+# A Ruby guide for PHP developers 📚
 
 ## Table of contents
 - [Getting Started](#getting-started)
@@ -9,7 +9,7 @@
 
 ## Installation
 
-**PHP**:  
+🐘 **PHP**:  
 Installation instruction for each OS can be found on official PHP website
 in the [Installing PHP guide](https://secure.php.net/manual/pt_BR/install.php).
 
@@ -23,7 +23,7 @@ Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
     with Xdebug v2.5.1, Copyright (c) 2002-2017, by Derick Rethans
 ```
 
-**Ruby**:  
+💎 **Ruby**:  
 Installation instruction for each OS can be found on official Ruby website
 in the [Installing Ruby guide](https://www.ruby-lang.org/en/documentation/installation/).
 
@@ -36,14 +36,14 @@ ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16]
 
 ## Hello World
 
-**PHP**:
+🐘 **PHP**:  
 ```php
 <?php
 
 echo "Hello World";
 ```
 
-**Ruby**:
+💎 **Ruby**:  
 ```php
 puts "Hello World"
 ```
