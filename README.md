@@ -3,7 +3,7 @@
 ## Table of contents
 - [Getting Started](#getting-started)
     - [Installation](#installation)
-    - [Hello World](#hello-world)
+    - [Interactive Shell](#interactive-shell)
 
 # Getting Started
 
@@ -34,16 +34,25 @@ You can confirm if the Ruby was installed with success typing:
 ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16]
 ```
 
-## Hello World
+## Interactive Shell
+
+Both languages come with an interactive shell.
 
 🐘 **PHP**:  
-```php
-<?php
+```bash
+% php -a
 
-echo "Hello World";
+Interactive shell
+
+php > echo "Hello World";
+Hello World
 ```
 
 💎 **Ruby**:  
-```php
-puts "Hello World"
+```bash
+% irb --simple-prompt
+>> puts "Hello World"
+Hello World
+ => nil
 ```
+❗️ *The flag `--simple-prompt` gives us a simpler prompt without the ruby version and line numbers.*
